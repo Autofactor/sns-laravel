@@ -1,5 +1,5 @@
 {
-  "name": "Autofactor/sns-laravel",
+  "name": "autofactor/sns-laravel",
   "description": "A library to enable sending and receiving broadcasts to and from SNS topics in Laravel and Lumen.",
   "keywords": [
     "laravel",
