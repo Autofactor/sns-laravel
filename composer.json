@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mitchdav\\SNS\\": "src/"
+      "Autofactor\\SNS\\": "src/"
     }
   },
   "require": {
