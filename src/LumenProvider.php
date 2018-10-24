@@ -1,12 +1,12 @@
 <?php
 
-namespace Mitchdav\SNS;
+namespace Autofactor\SNS;
 
 use Laravel\Lumen\Routing\Router;
 
 /**
  * Class LumenProvider
- * @package Mitchdav\SNS
+ * @package Autofactor\SNS
  */
 class LumenProvider extends Provider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitchdav\SNS;
+namespace Autofactor\SNS;
 
 use Aws\Sns\Message;
 use Aws\Sns\MessageValidator;
@@ -8,7 +8,7 @@ use Aws\Sns\SnsClient;
 
 /**
  * Class SNS
- * @package Mitchdav\SNS
+ * @package Autofactor\SNS
  */
 class SNS
 {

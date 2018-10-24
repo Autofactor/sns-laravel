@@ -1,13 +1,13 @@
 <?php
 
-namespace Mitchdav\SNS\Commands;
+namespace Autofactor\SNS\Commands;
 
 use Illuminate\Console\Command;
-use Mitchdav\SNS\SNS;
+use Autofactor\SNS\SNS;
 
 /**
  * Class Unsubscribe
- * @package Mitchdav\SNS\Commands
+ * @package Autofactor\SNS\Commands
  */
 class Unsubscribe extends Command
 {
@@ -26,14 +26,14 @@ class Unsubscribe extends Command
 	protected $description = 'Unsubscribes to the SNS topics listed in the "sns" config file.';
 
 	/**
-	 * @var \Mitchdav\SNS\SNS
+	 * @var \Autofactor\SNS\SNS
 	 */
 	private $sns;
 
 	/**
 	 * Unsubscribe constructor.
 	 *
-	 * @param \Mitchdav\SNS\SNS $sns
+	 * @param \Autofactor\SNS\SNS $sns
 	 */
 	public function __construct(SNS $sns)
 	{

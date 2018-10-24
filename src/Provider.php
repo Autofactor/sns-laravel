@@ -1,18 +1,18 @@
 <?php
 
-namespace Mitchdav\SNS;
+namespace Autofactor\SNS;
 
 use Aws\Sns\SnsClient;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Mitchdav\SNS\Commands\Create;
-use Mitchdav\SNS\Commands\Delete;
-use Mitchdav\SNS\Commands\Subscribe;
-use Mitchdav\SNS\Commands\Unsubscribe;
+use Autofactor\SNS\Commands\Create;
+use Autofactor\SNS\Commands\Delete;
+use Autofactor\SNS\Commands\Subscribe;
+use Autofactor\SNS\Commands\Unsubscribe;
 
 /**
  * Class Provider
- * @package Mitchdav\SNS
+ * @package Autofactor\SNS
  */
 class Provider extends ServiceProvider
 {

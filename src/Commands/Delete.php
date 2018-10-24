@@ -1,13 +1,13 @@
 <?php
 
-namespace Mitchdav\SNS\Commands;
+namespace Autofactor\SNS\Commands;
 
 use Illuminate\Console\Command;
-use Mitchdav\SNS\SNS;
+use Autofactor\SNS\SNS;
 
 /**
  * Class Delete
- * @package Mitchdav\SNS\Commands
+ * @package Autofactor\SNS\Commands
  */
 class Delete extends Command
 {
@@ -26,14 +26,14 @@ class Delete extends Command
 	protected $description = 'Deletes the SNS topics listed in the "sns" config file.';
 
 	/**
-	 * @var \Mitchdav\SNS\SNS
+	 * @var \Autofactor\SNS\SNS
 	 */
 	private $sns;
 
 	/**
 	 * Delete constructor.
 	 *
-	 * @param \Mitchdav\SNS\SNS $sns
+	 * @param \Autofactor\SNS\SNS $sns
 	 */
 	public function __construct(SNS $sns)
 	{

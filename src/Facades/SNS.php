@@ -1,9 +1,9 @@
 <?php
 
-namespace Mitchdav\SNS\Facades;
+namespace Autofactor\SNS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Mitchdav\SNS\SNS as BaseSNS;
+use Autofactor\SNS\SNS as BaseSNS;
 
 class SNS extends Facade
 {

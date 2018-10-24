@@ -1,24 +1,24 @@
 <?php
 
-namespace Mitchdav\SNS;
+namespace Autofactor\SNS;
 
 use Illuminate\Contracts\Broadcasting\Broadcaster as BaseBroadcaster;
 
 /**
  * Class Broadcaster
- * @package Mitchdav\SNS
+ * @package Autofactor\SNS
  */
 class Broadcaster implements BaseBroadcaster
 {
 	/**
-	 * @var \Mitchdav\SNS\SNS
+	 * @var \Autofactor\SNS\SNS
 	 */
 	private $sns;
 
 	/**
 	 * Broadcaster constructor.
 	 *
-	 * @param \Mitchdav\SNS\SNS $sns
+	 * @param \Autofactor\SNS\SNS $sns
 	 */
 	public function __construct(SNS $sns)
 	{
